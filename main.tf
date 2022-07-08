@@ -1,10 +1,10 @@
 provider "aws" {
 
- region = "us-east-1"
+ region = "us-east-2"
 }
 variable "image" {
   type = string
-  default = "ami-02f3416038bdb17fb"
+  default = "ami-0603cbe34fd08cb81"
 }
 
 variable "hw" {
